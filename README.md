@@ -11,7 +11,7 @@ alias rns='~/code/scripts/scene_generator.zsh'
 ```
 
 So whenever I run one of these the script will run. 
-For now you have to be in the root of your project, for me that's ~/code/ProjectName  when you run the scripts.
+For now you have to be in the root of your project, for me that's ~/code/ProjectName, when you run the scripts.
 
 ## More to come!
 
