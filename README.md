@@ -3,7 +3,7 @@
 Some custom scripts for quickly creating new React Native components.
 
 # Usage
-Place aliases inside .zshrc for convenient usage.
+Place aliases inside .zshrc for convenient usage. Place the scripts where you want, but change path in aliases accordingly.
 As an example I've placed two aliases in my .zshrc which looks like this:
 ```Custom Scripts
 alias rnc='~/code/scripts/component_generator.zsh'
