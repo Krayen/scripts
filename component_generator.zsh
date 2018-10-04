@@ -62,6 +62,13 @@ const styles = StyleSheet.create({
 export default styles
 EOF
 
+if [ -z "${componentLocation//[[:space:]]/}" ]
+then
+  cd ..
+  cat <<EOF >>index.js
+export { default as $componentName } from './$componentName'
+EOF
+fi
 
 if [ -n "${componentLocation//[[:space:]]/}" ]
 then

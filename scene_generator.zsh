@@ -65,4 +65,10 @@ const styles = StyleSheet.create({
 export default styles
 EOF
 
+# check if there is a barrel index and add export for created scene. Otherwise create scenes/index.js and add export
+cd ..
+cat <<EOF >>index.js
+export { default as $sceneName } from './$sceneName'
+EOF
+
 echo Scene $sceneName created in src/scenes/
